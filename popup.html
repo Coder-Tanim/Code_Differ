@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Code Diff Highlighter (Only New/Changed Lines Highlighted)</h2>
+  
+  <div class="input-section">
+    <label for="oldCode">Old Code:</label>
+    <textarea id="oldCode" placeholder="Paste old code here..."></textarea>
+  </div>
+  
+  <div class="input-section">
+    <label for="newCode">New Code:</label>
+    <textarea id="newCode" placeholder="Paste new code here..."></textarea>
+  </div>
+  
+  <div class="button-row">
+    <button id="compareBtn">Compare & Highlight</button>
+    <button id="clearBtn">Clear All</button>
+  </div>
+  
+  <div id="error" class="error"></div>
+  
+  <div id="output" class="output">
+    <div id="diffStats" class="stats"></div>
+    <pre id="highlightedNew"><code></code></pre>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

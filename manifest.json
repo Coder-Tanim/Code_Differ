@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Code Diff Highlighter",
+  "version": "1.0",
+  "description": "Compare two code snippets and highlight differences in the new code with colors.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Diff Code"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
