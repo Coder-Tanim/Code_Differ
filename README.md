@@ -1,7 +1,5 @@
 # Code Diff Highlighter
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id.svg?color=green&label=Chrome%20Extension)](https://chromewebstore.google.com/detail/code-diff-highlighter/your-extension-id) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/yourusername/code-diff-highlighter.svg?style=social&label=Star)](https://github.com/yourusername/code-diff-highlighter)
-
 A lightweight Chrome extension for developers and QA engineers to quickly compare two code snippets (old vs. new) and highlight only the new or changed lines in the updated code. Unchanged lines remain unhighlighted for a clean, focused view. Perfect for code reviews, bug fixes, or spotting diffs during agile sprints.
 
 Built with vanilla JavaScript (no external libs), it's fast, privacy-friendly, and stores sessions locally.
