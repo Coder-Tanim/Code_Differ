@@ -51,20 +51,6 @@ Built with vanilla JavaScript (no external libs), it's fast, privacy-friendly, a
 
 ## Performance Notes
 - **Line Limits**: No hard cap, but optimized for <2,000 lines (1-5s). Larger diffs may take 10-30s due to JS algo.
-- **Browser**: Tested on Chrome 120+ (2025 stable). Works in Edge; Firefox via WebExt.
-
-## Contributing
-Love it? Fork and PR improvements! Ideas:
-- Word-level diffs.
-- Syntax highlighting (e.g., via Prism.js).
-- Export diffs as HTML/PDF.
-- Theme support (dark mode).
-
-1. Fork the repo.
-2. Create a feature branch (`git checkout -b feature/amazing-diff`).
-3. Commit changes (`git commit -m 'Add word-level diff'`).
-4. Push (`git push origin feature/amazing-diff`).
-5. Open a Pull Request.
-
+- **Browser**: Tested on Chrome 120+ (2025 stable). Works in Edge;
 
 Star if it saves your sanity! ⭐
