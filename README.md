@@ -14,10 +14,12 @@ Built with vanilla JavaScript (no external libs), it's fast, privacy-friendly, a
 - **Persistent Storage**: Uses Chrome's `localStorage` for session data—clears on demand.
 
 ## Screenshots
-![Popup Interface](screenshots/popup-empty.png)  
+![Popup Interface](<img width="663" height="626" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4514e7d9-6f15-4bb6-af05-befd7083b80e" />
+)  
 *Empty popup ready for input.*
 
-![Highlighted Diff](screenshots/diff-example.png)  
+![Highlighted Diff](<img width="684" height="754" alt="Screenshot_1" src="https://github.com/user-attachments/assets/b750572b-d923-4fd4-94ed-0737dc2b7d74" />
+)  
 *Example: Old code (left) vs. New (right) with green added and yellow changed lines.*
 
 *(Add actual screenshots to `/screenshots/` folder after uploading.)*
